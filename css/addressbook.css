@@ -2,12 +2,12 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0;
+    margin: 0px;
     height: 100%;
 }
 
 .header {
-    padding: 12px 0;
+    padding: 15px 0;
     background-color: white;
 }
 
@@ -29,12 +29,10 @@ body {
     border: 0px solid #008CFF;
     padding: 5px;
     max-height: 50px;
-    max-width: 45px;
 }
 
 .address-text {
-    font: normal bold 20px/25px Montserrat;
-    font-family: "Montserrat", sans-serif;
+    font: normal normal bold 20px/25px Montserrat;
     letter-spacing: 0px;
     color: #008CFF;
     text-align: left;
@@ -45,105 +43,3 @@ body {
 .book-text {
     color: black;
 }
-/* added new features for form content */
-.form-content {
-    min-height: calc(100%-80px);
-    background-color: #F7F7F7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 0px solid green;
-}
-.form {
-    width: 65%;
-    margin: 15px 0;
-    padding: 44px 60px;
-    background: white 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px grey;
-    border: 1px solid skyblue;
-    border-radius: 8px;
-    opacity: 1;
-}
-
-.form-head {
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    opacity: 1;
-    min-height: 108px;
-    background: #3273a8 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-
-.header-text {
-    font: normal normal normal 24px/37px Roboto;
-    letter-spacing: 0px;
-    color: white;
-    margin-left: 30%;
-}
-
-.cancel-img {
-    max-width: 30px;
-    max-height: 30px;
-    cursor: pointer;
-    margin-left: 200px;
-}
-/* added new features to the form  */
-.row-content {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    width: 80%;
-    margin-left: 10%;
-}
-
-.label {
-    min-width: 140px;
-}
-
-label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-}
-
-.text {
-    font-size: 16px;
-    color: black;
-    opacity: 1;
-    font-family: "Montserrat", sans-serif;
-}
-
-.input {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-}
-
-.select-items {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10px;
-    border: 0px solid green;
-    width: 80%;
-    margin-left: 10%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-select {
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-    font: normal normal normal 16px Roboto ;
-    letter-spacing: 0px;
-    color: black;
-    background-color: transparent;
-    width: 100%;
-}
-
-.selectDiv {
-    margin-right: 10px;
-} 
